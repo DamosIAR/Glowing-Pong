@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Post Processing Profile
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 67184473038932740}
---- !u!114 &67184473038932740
+  - {fileID: 8136894048535885625}
+--- !u!114 &8136894048535885625
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -32,19 +32,19 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 10
+    value: 6.04
   threshold:
     overrideState: 0
-    value: 1
+    value: 0
   softKnee:
     overrideState: 0
-    value: 0.5
+    value: 0
   clamp:
     overrideState: 0
-    value: 65472
+    value: 65266.5
   diffusion:
     overrideState: 0
-    value: 7
+    value: 2.13
   anamorphicRatio:
     overrideState: 0
     value: 0
