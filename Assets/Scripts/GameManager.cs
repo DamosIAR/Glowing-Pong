@@ -37,6 +37,18 @@ public class GameManager : MonoBehaviour
         txtPlayerScoreR.text = PlayerScoreR.ToString();
     }
 
+    public void Pause()
+    {
+        CanvasMenu.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
+    public void UnPause()
+    {
+        Time.timeScale = 1f;
+        CanvasMenu.SetActive(false);
+    }
+
     public void ScoreCheck()
     {
         if (PlayerScoreL == scoreToReach || PlayerScoreR == scoreToReach)
