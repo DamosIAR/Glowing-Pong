@@ -49,6 +49,11 @@ public class GameManager : MonoBehaviour
         CanvasMenu.SetActive(false);
     }
 
+    public void Menu()
+    {
+        UnPause();
+    }
+
     public void ScoreCheck()
     {
         if (PlayerScoreL == scoreToReach || PlayerScoreR == scoreToReach)
